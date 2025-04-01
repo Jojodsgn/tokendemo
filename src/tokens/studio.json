@@ -909,7 +909,7 @@
       "button": {
         "padding": {
           "vertical": {
-            "value": "{spacing.300}",
+            "value": "{spacing.100}",
             "type": "dimension"
           },
           "horizontal": {
