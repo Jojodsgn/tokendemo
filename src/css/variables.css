@@ -97,7 +97,7 @@
   --color-alpha-pertol-alpha-10: rgba(0, 96, 101, 0.1);
   --color-alpha-pertol-alpha-20: rgba(0, 96, 101, 0.2);
   --color-alpha-pertol-alpha-30: rgba(0, 96, 101, 0.3);
-  --color-text-headline: #b9501c;
+  --color-text-headline: #004d51;
   --color-text-primary: #383838;
   --color-text-secondary: #5e5e5e;
   --color-text-tertiary: #9e9e9e;
@@ -235,6 +235,9 @@
   --layout-breakpoint-xl: 1440px;
   --layout-breakpoint-l: 1024px;
   --layout-breakpoint-m: 768px;
+  --layout-formfield-gap: 16px;
+  --layout-button-padding-vertical: 8px;
+  --layout-button-padding-horizontal: 16px;
   --spacing-0: 0px;
   --spacing-25: 2px;
   --spacing-50: 4px;
