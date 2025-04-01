@@ -97,7 +97,7 @@
   --color-alpha-pertol-alpha-10: rgba(0, 96, 101, 0.1);
   --color-alpha-pertol-alpha-20: rgba(0, 96, 101, 0.2);
   --color-alpha-pertol-alpha-30: rgba(0, 96, 101, 0.3);
-  --color-text-headline: #b9501c;
+  --color-text-headline: #004d51;
   --color-text-primary: #383838;
   --color-text-secondary: #5e5e5e;
   --color-text-tertiary: #9e9e9e;
@@ -117,35 +117,15 @@
   --color-background-bg-secondary: #ededed;
   --color-background-bg-secondary-alt: #008f88;
   --color-background-bg-brand: #8db91c;
-  --color-background-interactive-bg-primary-interactive: #556f11;
+  --color-background-interactive-bg-primary-interactive: #b9501c;
   --color-background-interactive-bg-primary-interactive-hover: #719416;
   --color-background-interactive-bg-primary-interactive-pressed: #719416;
   --color-background-interactive-bg-interactive-disabled: #ededed;
   --color-background-interactive-bg-secondary-interactive: #ffffff;
-  --color-background-interactive-bg-secondary-interactive-hover: rgba(
-    141,
-    185,
-    28,
-    0.1
-  );
-  --color-background-interactive-bg-secondary-interactive-pressed: rgba(
-    141,
-    185,
-    28,
-    0.2
-  );
-  --color-background-interactive-bg-tertiary-interactive: rgba(
-    255,
-    255,
-    255,
-    0
-  );
-  --color-background-interactive-bg-tertiary-interactive-hover: rgba(
-    0,
-    96,
-    101,
-    0.1
-  );
+  --color-background-interactive-bg-secondary-interactive-hover: rgba(141, 185, 28, 0.1);
+  --color-background-interactive-bg-secondary-interactive-pressed: rgba(141, 185, 28, 0.2);
+  --color-background-interactive-bg-tertiary-interactive: rgba(255, 255, 255, 0);
+  --color-background-interactive-bg-tertiary-interactive-hover: rgba(0, 96, 101, 0.1);
   --color-background-interactive-bg-tertiary-interactive-active: #004d51;
   --color-border-border-primary: #7e7e7e;
   --color-border-border-secondary: #bfbfbf;
@@ -235,6 +215,9 @@
   --layout-breakpoint-xl: 1440px;
   --layout-breakpoint-l: 1024px;
   --layout-breakpoint-m: 768px;
+  --layout-formfield-gap: 48px;
+  --layout-button-padding-vertical: 8px;
+  --layout-button-padding-horizontal: 16px;
   --spacing-0: 0px;
   --spacing-25: 2px;
   --spacing-50: 4px;
