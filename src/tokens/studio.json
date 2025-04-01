@@ -486,7 +486,7 @@
         },
         "interactive": {
           "bg-primary-interactive": {
-            "value": "{color.brand.700}",
+            "value": "{color.red.500}",
             "type": "color"
           },
           "bg-primary-interactive-hover": {
