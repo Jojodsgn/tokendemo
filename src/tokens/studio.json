@@ -1,5 +1,5 @@
-{ 
-  "tokens": { 
+{
+  "tokens": {
     "color": {
       "brand": {
         "100": {
@@ -401,7 +401,7 @@
       },
       "text": {
         "headline": {
-          "value": "{color.petrol1.500}",
+          "value": "{color.red.500}",
           "type": "color"
         },
         "primary": {
@@ -1030,5 +1030,11 @@
         }
       }
     }
-  } 
+  },
+  "$themes": [],
+  "$metadata": {
+    "tokenSetOrder": [
+      "tokens"
+    ]
+  }
 }
