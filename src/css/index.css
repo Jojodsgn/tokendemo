@@ -1,5 +1,100 @@
 @import url("variables.css");
 
+/* Reset */
+
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Prevent font size inflation */
+html {
+  -moz-text-size-adjust: none;
+  -webkit-text-size-adjust: none;
+  text-size-adjust: none;
+}
+
+/* Remove default margin in favour of better control in authored CSS */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin-block-end: 0;
+}
+
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role="list"],
+ol[role="list"] {
+  list-style: none;
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  line-height: 1.5;
+}
+
+/* Set shorter line heights on headings and interactive elements */
+h1,
+h2,
+h3,
+h4,
+button,
+input,
+label {
+  line-height: 1.1;
+}
+
+/* Balance text wrapping on headings */
+h1,
+h2,
+h3,
+h4 {
+  text-wrap: balance;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+  color: currentColor;
+}
+
+/* Make images easier to work with */
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font-family: inherit;
+  font-size: inherit;
+}
+
+/* Make sure textareas without a rows attribute are not tiny */
+textarea:not([rows]) {
+  min-height: 10em;
+}
+
+/* Anything that has been anchored to should have extra scroll margin */
+:target {
+  scroll-margin-block: 5ex;
+}
+
+/* Reset end*/
+
 body {
   display: flex;
   padding: var(--spacing-1000, 80px) 0px;
@@ -7,4 +102,169 @@ body {
   align-items: center;
   gap: var(--spacing-0, 0px);
   background: var(--background-bg-primary, #fff);
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--spacing-300, 24px);
+  align-self: stretch;
+}
+
+.container {
+  display: flex;
+  width: 1128px;
+  max-width: 1128px;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--spacing-3xl, 32px);
+}
+
+@import url("variables.css");
+
+.hlwrapper {
+  display: flex;
+  padding: var(--spacing-400, 32px) var(--spacing-1200, 96px);
+  flex-direction: column;
+  align-items: center;
+  gap: var(--spacing-lg-16-px, 16px);
+  align-self: stretch;
+}
+
+.prehl {
+  margin: 0;
+  color: var(--text-text-link, #556f11);
+  text-align: center;
+
+  /* Label/M/Bold */
+  font-family: var(--Label-Family, Metropolis);
+  font-size: var(--Label-m-Size, 16px);
+  font-style: normal;
+  font-weight: 700;
+  line-height: var(--Label-m-Line-height, 24px); /* 150% */
+  letter-spacing: var(--Label-m-Letter-Spacing, 0px);
+}
+
+.heading-2xl {
+  margin: 0;
+  color: var(--text-text-headline, #006065);
+  text-align: center;
+
+  /* Heading/2XL/Medium */
+  font-family: var(--Heading-Family, Metropolis);
+  font-size: var(--Heading-2xl-Size, 48px);
+  font-style: normal;
+  font-weight: 500;
+  line-height: var(--Heading-2xl-Line-height, 56px); /* 116.667% */
+  letter-spacing: var(--Heading-2xl-Letter-Spacing, 0px);
+}
+
+.text-xl {
+  color: var(--text-text-primary, #383838);
+  text-align: center;
+  margin: 0;
+
+  /* Text/XL/Regular */
+  font-family: var(--Text-Family, "Open Sans");
+  font-size: var(--Text-xl-Size, 20px);
+  font-style: normal;
+  font-weight: 400;
+  line-height: var(--Text-xl-Line-height, 28px); /* 140% */
+  letter-spacing: var(--Text-xl-Letter-Spacing, 0px);
+}
+
+@import url("variables.css");
+
+form {
+  display: flex;
+  width: 360px;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--spacing-200, 16px);
+}
+
+fieldset {
+  border: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--spacing-50, 4px);
+  align-self: stretch;
+}
+
+.fmlabel {
+  color: var(--text-text-primary, #383838);
+
+  /* Label/S/Regular */
+  font-family: var(--Label-Family, Metropolis);
+  font-size: var(--Label-s-Size, 14px);
+  font-style: normal;
+  font-weight: 400;
+  line-height: var(--Label-s-Line-height, 20px); /* 142.857% */
+  letter-spacing: var(--Label-s-Letter-Spacing, 0px);
+}
+
+.fminput {
+  display: flex;
+  padding: var(--spacing-100-base, 8px) var(--spacing-150, 12px);
+  align-items: center;
+  gap: var(--spacing-100-base, 8px);
+  align-self: stretch;
+
+  border-radius: var(--border-radius-border-raidus-m, 4px);
+  border: var(--border-width-s, 1px) solid
+    var(--border-border-secondary, #bfbfbf);
+  background: var(--background-bg-primary, #fff);
+
+  color: var(--text-text-secondary, #5e5e5e);
+
+  /* Text/M/Regular */
+  font-family: var(--Text-Family, "Open Sans");
+  font-size: var(--Text-M-Size, 16px);
+  font-style: normal;
+  font-weight: 400;
+  line-height: var(--Text-M-Line-height, 24px); /* 150% */
+  letter-spacing: var(--Text-M-Letter-Spacing, 0px);
+}
+
+input:focus {
+  border: var(--border-width-s, 1px) solid var(--border-border-primary, #7e7e7e);
+}
+
+input::placeholder {
+  color: var(--text-text-tertiary, #9e9e9e);
+}
+
+.btn {
+  display: flex;
+  padding: var(--spacing-100-base, 8px) var(--spacing-200, 16px);
+  justify-content: center;
+  align-items: center;
+  gap: var(--spacing-100-base, 8px);
+  cursor: pointer;
+
+  color: var(--text-interactive-text-primary-interactive, #fff);
+
+  /* Label/M/Bold */
+
+  font-family: var(--Label-Family, Metropolis);
+  font-size: var(--Label-m-Size, 16px);
+  font-style: normal;
+  font-weight: 700;
+  line-height: var(--Label-m-Line-height, 24px); /* 150% */
+  letter-spacing: var(--Label-m-Letter-Spacing, 0px);
+
+  border-width: 0;
+  border-radius: var(--border-radius-border-raidus-m, 4px);
+  background: var(--background-interactive-bg-primary-interactive, #556f11);
+}
+
+.btn:hover {
+  background: var(
+    --background-interactive-bg-primary-interactive-hover,
+    #719416
+  );
 }

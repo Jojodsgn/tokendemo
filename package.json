@@ -25,5 +25,18 @@
     "globals": "^15.15.0",
     "style-dictionary": "^4.3.3",
     "vite": "^6.2.0"
-  }
+  },
+  "description": "This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.",
+  "main": "eslint.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jojodsgn/tokendemo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jojodsgn/tokendemo/issues"
+  },
+  "homepage": "https://github.com/Jojodsgn/tokendemo#readme"
 }

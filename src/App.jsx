@@ -1,9 +1,15 @@
-import "./css/App.css"
-import BlogHeader from "./components/Blogheader"
-import Message from "./components/Message"
+import "./css/index.css"
+import Button from "./components/Button"
+import Formular from "./components/Formular"
+import BlogHeader from "./components/BlogHeader";
 
 function App(){
-return <BlogHeader></BlogHeader>
+return(
+<>
+<BlogHeader></BlogHeader>
+<Formular></Formular>
+</>
+);
 }
 
 export default App
