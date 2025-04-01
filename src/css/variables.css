@@ -122,30 +122,10 @@
   --color-background-interactive-bg-primary-interactive-pressed: #719416;
   --color-background-interactive-bg-interactive-disabled: #ededed;
   --color-background-interactive-bg-secondary-interactive: #ffffff;
-  --color-background-interactive-bg-secondary-interactive-hover: rgba(
-    141,
-    185,
-    28,
-    0.1
-  );
-  --color-background-interactive-bg-secondary-interactive-pressed: rgba(
-    141,
-    185,
-    28,
-    0.2
-  );
-  --color-background-interactive-bg-tertiary-interactive: rgba(
-    255,
-    255,
-    255,
-    0
-  );
-  --color-background-interactive-bg-tertiary-interactive-hover: rgba(
-    0,
-    96,
-    101,
-    0.1
-  );
+  --color-background-interactive-bg-secondary-interactive-hover: rgba(141, 185, 28, 0.1);
+  --color-background-interactive-bg-secondary-interactive-pressed: rgba(141, 185, 28, 0.2);
+  --color-background-interactive-bg-tertiary-interactive: rgba(255, 255, 255, 0);
+  --color-background-interactive-bg-tertiary-interactive-hover: rgba(0, 96, 101, 0.1);
   --color-background-interactive-bg-tertiary-interactive-active: #004d51;
   --color-border-border-primary: #7e7e7e;
   --color-border-border-secondary: #bfbfbf;
@@ -235,7 +215,7 @@
   --layout-breakpoint-xl: 1440px;
   --layout-breakpoint-l: 1024px;
   --layout-breakpoint-m: 768px;
-  --layout-formfield-gap: 16px;
+  --layout-formfield-gap: 48px;
   --layout-button-padding-vertical: 8px;
   --layout-button-padding-horizontal: 16px;
   --spacing-0: 0px;
