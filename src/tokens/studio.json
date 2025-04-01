@@ -401,7 +401,7 @@
       },
       "text": {
         "headline": {
-          "value": "{color.red.500}",
+          "value": "{color.petrol1.600}",
           "type": "color"
         },
         "primary": {
@@ -898,6 +898,24 @@
         "m": {
           "value": "{unit.768px}",
           "type": "dimension"
+        }
+      },
+      "formfield": {
+        "gap": {
+          "value": "{spacing.200}",
+          "type": "dimension"
+        }
+      },
+      "button": {
+        "padding": {
+          "vertical": {
+            "value": "{spacing.100}",
+            "type": "dimension"
+          },
+          "horizontal": {
+            "value": "{spacing.200}",
+            "type": "dimension"
+          }
         }
       }
     },
