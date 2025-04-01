@@ -902,7 +902,7 @@
       },
       "formfield": {
         "gap": {
-          "value": "{spacing.200}",
+          "value": "{spacing.500}",
           "type": "dimension"
         }
       },
