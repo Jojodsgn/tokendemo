@@ -486,7 +486,7 @@
         },
         "interactive": {
           "bg-primary-interactive": {
-            "value": "{color.red.500}",
+            "value": "{color.brand.700}",
             "type": "color"
           },
           "bg-primary-interactive-hover": {
@@ -902,7 +902,7 @@
       },
       "formfield": {
         "gap": {
-          "value": "{spacing.600}",
+          "value": "{spacing.200}",
           "type": "dimension"
         }
       },
