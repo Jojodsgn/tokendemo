@@ -235,7 +235,7 @@ input::placeholder {
 .btn {
   display: flex;
   padding: var(--layout-button-padding-vertical)
-    var(--layout-button-padding-horizontal);
+    var(-layout-button-padding-horizontal);
   justify-content: center;
   align-items: center;
   gap: var(--spacing-100);
