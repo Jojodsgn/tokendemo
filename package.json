@@ -5,8 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build, style-dictionary build --config ./src/config.json",
-
+    "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
   },

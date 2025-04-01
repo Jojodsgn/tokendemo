@@ -1,16 +1,13 @@
-{
-  "source": [
-    "studio.json"
+{  "source": [
+    "**/*.json"
   ],
   "log": {
     "verbosity": "default"
   },
-  "preprocessors": [
-    "tokens-studio"
-  ],
+
   "platforms": {
     "css": {
-      "transformGroup": "tokens-studio",
+      "transformGroup": "css",
       "transforms": [
         "name/kebab"
       ],
@@ -19,16 +16,6 @@
         {
           "destination": "_variables.css",
           "format": "css/variables"
-        }
-      ]
-    },
-    "js": {
-      "transformGroup": "tokens-studio",
-      "buildPath": "build/js/",
-      "files": [
-        {
-          "destination": "variables.js",
-          "format": "javascript/es6"
         }
       ]
     }
