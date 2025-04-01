@@ -1,0 +1,6 @@
+on: push
+jobs:
+  build-node:
+    steps:
+      -uses: actions/checkout@v4
+      -run: src/build-output.js
