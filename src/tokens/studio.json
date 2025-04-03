@@ -486,7 +486,7 @@
         },
         "interactive": {
           "primary": {
-            "value": "{color.brand.700}",
+            "value": "{color.petrol1.500}",
             "type": "color"
           },
           "primary-hover": {
@@ -902,7 +902,7 @@
       },
       "formfield": {
         "gap": {
-          "value": "{spacing.200}",
+          "value": "{spacing.400}",
           "type": "dimension"
         }
       },
