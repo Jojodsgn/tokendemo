@@ -1,7 +1,7 @@
 
 function Formular() {
     return (
-      <section>
+      <div className="container">
         <form>
           <fieldset>
           <label className="fmlabel" for="name">Name</label>
@@ -17,7 +17,7 @@ function Formular() {
           </fieldset>
           <input className="btn" type="submit" value="Zum Newsletter anmelden!"></input>
         </form>
-      </section>
+      </div>
     )
 }
 

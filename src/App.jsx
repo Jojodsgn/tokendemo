@@ -6,8 +6,10 @@ import BlogHeader from "./components/BlogHeader";
 function App(){
 return(
 <>
-<BlogHeader></BlogHeader>
-<Formular></Formular>
+<section>
+    <BlogHeader></BlogHeader>
+    <Formular></Formular>
+</section>
 </>
 );
 }
