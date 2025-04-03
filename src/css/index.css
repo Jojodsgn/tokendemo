@@ -226,6 +226,11 @@ fieldset {
 
 input:focus {
   outline: none;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus {
+  outline: none;
   border: var(--border-width-l) solid var(--color-border-primary);
 }
 
@@ -235,6 +240,7 @@ input::placeholder {
 
 .btn {
   display: flex;
+  outline: none;
   padding: var(--layout-button-padding-vertical)
     var(--layout-button-padding-horizontal);
   justify-content: center;
