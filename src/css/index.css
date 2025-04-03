@@ -100,7 +100,7 @@ body {
   flex-direction: column;
   align-items: center;
   gap: var(--spacing-0);
-  background: var(--color-background-bg-primary);
+  background: var(--color-bg-primary);
 }
 
 section {
@@ -210,8 +210,8 @@ fieldset {
   align-self: stretch;
 
   border-radius: var(--border-raidus-m, 4px);
-  border: var(--border-width-s) solid var(--color-border-border-secondary);
-  background: var(--color-background-bg-primary);
+  border: var(--border-width-s) solid var(--color-border-secondary);
+  background: var(--color-bg-primary);
 
   color: var(--color-text-secondary);
 
@@ -225,7 +225,7 @@ fieldset {
 }
 
 input:focus {
-  border: var(--border-width-s) solid var(--color-border-border-primary);
+  border: var(--border-width-s) solid var(--color-border-primary);
 }
 
 input::placeholder {
@@ -241,7 +241,7 @@ input::placeholder {
   gap: var(--spacing-100);
   cursor: pointer;
 
-  color: var(--color-text-interactive-text-primary-interactive);
+  color: var(--color-text-interactive-primary);
 
   /* Label/M/Bold */
 
@@ -254,9 +254,9 @@ input::placeholder {
 
   border-width: 0;
   border-radius: var(--border-radius-m);
-  background: var(--color-background-interactive-bg-primary-interactive);
+  background: var(--color-bg-interactive-primary);
 }
 
 .btn:hover {
-  background: var(--color-background-interactive-bg-primary-interactive-hover,);
+  background: var(--color-bg-interactive-primary-hover,);
 }

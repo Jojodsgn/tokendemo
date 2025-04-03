@@ -421,48 +421,48 @@
           "type": "color"
         },
         "interactive": {
-          "text-tertiary-interactive": {
+          "tertiary": {
             "value": "{color.petrol1.600}",
             "type": "color"
           },
-          "text-tertiary-interactive-hover": {
+          "tertiary-hover": {
             "value": "{color.petrol1.600}",
             "type": "color"
           },
-          "text-primary-interactive": {
+          "primary": {
             "value": "{color.base.white}",
             "type": "color"
           },
-          "text-primary-interactive-hover": {
+          "primarye-hover": {
             "value": "{color.base.white}",
             "type": "color"
           },
-          "text-secondary-interactive": {
+          "secondary": {
             "value": "{color.brand.700}",
             "type": "color"
           },
-          "text-secondary-interactive-hover": {
+          "secondary-hover": {
             "value": "{color.brand.700}",
             "type": "color"
           }
         },
-        "text-link-hover": {
+        "link-hover": {
           "value": "{color.brand.500}",
           "type": "color"
         },
-        "text-headline-invert": {
+        "headline-invert": {
           "value": "{color.base.white}",
           "type": "color"
         },
-        "text-primary-invert": {
+        "primary-invert": {
           "value": "{color.neutral.100}",
           "type": "color"
         },
-        "text-secondary-invert": {
+        "secondary-invert": {
           "value": "{color.neutral.200}",
           "type": "color"
         },
-        "text-tertiary-invert": {
+        "tertiary-invert": {
           "value": "{color.neutral.300}",
           "type": "color"
         }
