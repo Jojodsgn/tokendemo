@@ -171,7 +171,7 @@
   --semantic-color-border-primary: #7e7e7e;
   --semantic-color-border-secondary: #bfbfbf;
   --semantic-color-border-tertiary: #ededed;
-  --semantic-color-border-brand: #719416;
+  --semantic-color-border-brand: #8db91c;
   --semantic-color-border-inverse: #ffffff;
   --semantic-color-border-accent: #006065;
   --semantic-color-border-error: #b9501c;
@@ -228,6 +228,7 @@
   --layout-formfield-gap: 16px;
   --layout-button-padding-vertical: 8px;
   --layout-button-padding-horizontal: 20px;
+  --layout-button-height: 40px;
   --spacing-0: 0px;
   --spacing-25: 2px;
   --spacing-50: 4px;
@@ -252,4 +253,5 @@
   --spacing-1600: 128px;
   --spacing-1950: 156px;
   --spacing-3200: 256px;
+  --button-color-bg-default: #719416;
 }
