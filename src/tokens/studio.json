@@ -713,7 +713,7 @@
             "type": "color"
           },
           "brand": {
-            "value": "{core.color.brand.600}",
+            "value": "{core.color.brand.500}",
             "type": "color"
           },
           "inverse": {
@@ -968,6 +968,10 @@
             "value": "{spacing.250}",
             "type": "dimension"
           }
+        },
+        "height": {
+          "value": "{core.unit.40px}",
+          "type": "dimension"
         }
       }
     },
@@ -1052,6 +1056,16 @@
       "3200": {
         "value": "{core.unit.256px}",
         "type": "dimension"
+      }
+    },
+    "button": {
+      "color": {
+        "bg": {
+          "default": {
+            "value": "{semantic.color.bg.interactive.primary}",
+            "type": "color"
+          }
+        }
       }
     }
   },
