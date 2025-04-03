@@ -486,7 +486,7 @@
         },
         "interactive": {
           "primary": {
-            "value": "{color.petrol1.500}",
+            "value": "{color.brand.500}",
             "type": "color"
           },
           "primary-hover": {

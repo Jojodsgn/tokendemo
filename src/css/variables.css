@@ -117,7 +117,7 @@
   --color-bg-secondary: #ededed;
   --color-bg-secondary-alt: #008f88;
   --color-bg-brand: #8db91c;
-  --color-bg-interactive-primary: #556f11;
+  --color-bg-interactive-primary: #006065;
   --color-bg-interactive-primary-hover: #719416;
   --color-bg-interactive-primary-pressed: #719416;
   --color-bg-interactive-disabled: #ededed;
@@ -215,7 +215,7 @@
   --layout-breakpoint-xl: 1440px;
   --layout-breakpoint-l: 1024px;
   --layout-breakpoint-m: 768px;
-  --layout-formfield-gap: 16px;
+  --layout-formfield-gap: 32px;
   --layout-button-padding-vertical: 8px;
   --layout-button-padding-horizontal: 16px;
   --spacing-0: 0px;
