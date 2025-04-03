@@ -15,7 +15,7 @@ function Formular() {
           <label className="fmlabel" for="mail">E-Mail</label>
           <input className="fminput" type="email" id="mail" placeholder="mmustermann@mail.com"></input>
           </fieldset>
-          <input className="btn" type="submit" value="Hier anmelden"></input>
+          <input className="btn" type="submit" value="Zum Newsletter anmelden!"></input>
         </form>
       </section>
     )
