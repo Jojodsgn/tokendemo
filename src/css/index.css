@@ -225,7 +225,8 @@ fieldset {
 }
 
 input:focus {
-  border: var(--border-width-s) solid var(--color-border-primary);
+  outline: none;
+  border: var(--border-width-l) solid var(--color-border-primary);
 }
 
 input::placeholder {
