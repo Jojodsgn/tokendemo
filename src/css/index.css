@@ -100,7 +100,7 @@ body {
   flex-direction: column;
   align-items: center;
   gap: var(--spacing-0);
-  background: var(--color-bg-primary);
+  background: var(--semantic-color-bg-primary);
 }
 
 section {
@@ -131,7 +131,7 @@ section {
 
 .prehl {
   margin: 0;
-  color: var(--color-text-link);
+  color: var(--semantic-color-text-link);
   text-align: center;
 
   /* Label/M/Bold */
@@ -145,7 +145,7 @@ section {
 
 .heading-2xl {
   margin: 0;
-  color: var(--color-text-headline);
+  color: var(--semantic-color-text-headline);
   text-align: center;
 
   /* Heading/2XL/Medium */
@@ -158,7 +158,7 @@ section {
 }
 
 .text-xl {
-  color: var(--color-text-primary);
+  color: var(--semantic-color-text-primary);
   text-align: center;
   margin: 0;
 
@@ -191,7 +191,7 @@ fieldset {
 }
 
 .fmlabel {
-  color: var(--color-text-primary);
+  color: var(--semantic-color-text-primary);
 
   /* Label/S/Regular */
   font-family: var(--Label-Family, Metropolis);
@@ -209,11 +209,12 @@ fieldset {
   gap: var(--spacing-100);
   align-self: stretch;
 
-  border-radius: var(--border-raidus-m, 4px);
-  border: var(--border-width-s) solid var(--color-border-secondary);
-  background: var(--color-bg-primary);
+  border-radius: var(--semantic-border-raidus-m, 4px);
+  border: var(--semantic-border-width-s) solid
+    var(--semantic-color-border-secondary);
+  background: var(--semantic-color-bg-primary);
 
-  color: var(--color-text-secondary);
+  color: var(--semantic-color-text-secondary);
 
   /* Text/M/Regular */
   font-family: var(--Text-Family, "Open Sans");
@@ -231,11 +232,12 @@ input:focus {
 input[type="text"]:focus,
 input[type="email"]:focus {
   outline: none;
-  border: var(--border-width-l) solid var(--color-border-primary);
+  border: var(--semantic-border-width-l) solid
+    var(--semantic-color-border-primary);
 }
 
 input::placeholder {
-  color: var(--color-text-tertiary);
+  color: var(--semantic-color-text-tertiary);
 }
 
 .btn {
@@ -248,7 +250,7 @@ input::placeholder {
   gap: var(--spacing-100);
   cursor: pointer;
 
-  color: var(--color-text-interactive-primary);
+  color: var(--semantic-color-text-interactive-primary);
 
   /* Label/M/Bold */
 
@@ -260,10 +262,10 @@ input::placeholder {
   letter-spacing: var(--Label-m-Letter-Spacing, 0px);
 
   border-width: 0;
-  border-radius: var(--border-radius-m);
-  background: var(--color-bg-interactive-primary);
+  border-radius: var(--semantic-border-radius-m);
+  background: var(--semantic-color-bg-interactive-primary);
 }
 
 .btn:hover {
-  background: var(--color-bg-interactive-primary-hover,);
+  background: var(--semantic-color-bg-interactive-primary-hover,);
 }
