@@ -1065,6 +1065,20 @@
         "$type": "dimension",
         "$value": "{core.unit.256px}"
       }
+    },
+    "content": {
+      "newsletter": {
+        "headline": {
+          "de": {
+            "$type": "text",
+            "$value": "Jetzt Newsletter abonnieren"
+          },
+          "en": {
+            "$type": "text",
+            "$value": "Subscribe to newsletter now"
+          }
+        }
+      }
     }
   },
   "$themes": [],
