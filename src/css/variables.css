@@ -225,10 +225,11 @@
   --layout-breakpoint-xl: 1440px;
   --layout-breakpoint-l: 1024px;
   --layout-breakpoint-m: 768px;
-  --layout-formfield-gap: 16px;
-  --layout-button-padding-vertical: 8px;
-  --layout-button-padding-horizontal: 20px;
-  --layout-button-height: 40px;
+  --formfield-gap: 0px;
+  --button-padding-vertical: 8px;
+  --button-padding-horizontal: 20px;
+  --button-height: 40px;
+  --button-color-bg-default: #719416;
   --spacing-0: 0px;
   --spacing-25: 2px;
   --spacing-50: 4px;
@@ -253,5 +254,4 @@
   --spacing-1600: 128px;
   --spacing-1950: 156px;
   --spacing-3200: 256px;
-  --button-color-bg-default: #719416;
 }

@@ -176,7 +176,7 @@ form {
   width: 360px;
   flex-direction: column;
   align-items: center;
-  gap: var(--layout-formfield-gap);
+  gap: var(--formfield-gap);
 }
 
 fieldset {
@@ -243,8 +243,7 @@ input::placeholder {
 .btn {
   display: flex;
   outline: none;
-  padding: var(--layout-button-padding-vertical)
-    var(--layout-button-padding-horizontal);
+  padding: var(--button-padding-vertical) var(--button-padding-horizontal);
   justify-content: center;
   align-items: center;
   gap: var(--spacing-100);
