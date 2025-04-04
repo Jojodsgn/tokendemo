@@ -659,7 +659,7 @@
           "interactive": {
             "primary": {
               "$type": "color",
-              "$value": "{core.color.brand.600}"
+              "$value": "{core.color.petrol1.500}"
             },
             "primary-hover": {
               "$type": "color",
@@ -956,7 +956,7 @@
     "formfield": {
       "gap": {
         "$type": "dimension",
-        "$value": "{spacing.0}"
+        "$value": "{spacing.200}"
       }
     },
     "button": {
