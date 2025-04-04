@@ -956,7 +956,7 @@
     "formfield": {
       "gap": {
         "$type": "dimension",
-        "$value": "{spacing.200}"
+        "$value": "{spacing.0}"
       }
     },
     "button": {
